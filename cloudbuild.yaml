@@ -8,7 +8,7 @@ steps:
     - 'run'
     - 'deploy'
     - 'sample-app'
-    - '--region=${_REGION}'
+    - '--region=global'
     - '--platform=managed'
     - '--allow-unauthenticated'
     - '--service-account=${1091634236547-compute@developer.gserviceaccount.com}'
