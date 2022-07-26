@@ -7,9 +7,9 @@ steps:
   args:
     - 'run'
     - 'deploy'
-    - '${_SERVICE_NAME}'
-    - '--region=${_REGION}'
+    - '${sample-app}'
+    - '--region=${global (non-regional)}'
     - '--platform=managed'
     - '--allow-unauthenticated'
-    - '--service-account=${_SERVICE_ACCOUNT_EMAIL}'
-    - '--image=gcr.io/${PROJECT_ID}/${_SERVICE_NAME}:$SHORT_SHA'
+    - '--service-account=${1091634236547-compute@developer.gserviceaccount.com}'
+    - '--image=gcr.io/${seventh-dryad-274514}/${sample-app}:$SHORT_SHA'
