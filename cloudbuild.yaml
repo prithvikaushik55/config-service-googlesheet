@@ -11,5 +11,5 @@ steps:
     - '--region=${_REGION}'
     - '--platform=managed'
     - '--allow-unauthenticated'
-    - '--service-account=${_SERVICE_ACCOUNT_EMAIL}'
+    - '--service-account=${1091634236547-compute@developer.gserviceaccount.com}'
     - '--image=gcr.io/${PROJECT_ID}/${_SERVICE_NAME}:$SHORT_SHA'
